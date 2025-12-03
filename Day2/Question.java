@@ -1,0 +1,39 @@
+public class Question {
+    private int id;
+    private String text;
+    private String answer;
+
+    public Question(int id, String text)
+    {
+        this.id=id;
+        this.text=text;
+    }
+
+    public int getId()
+    {
+        return id;
+    }
+
+    public void  setId(int id)
+    {
+        this.id=id;
+    }
+
+    public String getText()
+    {
+        return text;
+    }
+
+
+    public void setText(String text)
+    {
+        this.text = text;
+    }
+
+
+    public String toString()
+    {
+        return "Question{id=" + id + ", text='" + text + '\''+'}';
+    }
+
+}
